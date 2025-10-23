@@ -1,4 +1,4 @@
-# Smart Review AI: Fine-Tuning LLM with LoRA
+# Smart-Review-AI: Fine-Tuning LLM with LoRA
 
 Generate realistic, human-like product reviews using a fine-tuned GPT-2 LLM model enhanced with LoRA.
 
