@@ -1,4 +1,4 @@
-# Smart-Review-AI: Fine-Tuning LLM with LoRA
+# Smart-Review-AI: Fine-Tuning GPT-2 LLM with LoRA
 
 Generate realistic, human-like product reviews using a fine-tuned GPT-2 LLM model enhanced with LoRA.
 
@@ -39,8 +39,7 @@ Check out the web app on Hugging Face Spaces:
 https://huggingface.co/spaces/shibbir24/SmartReviewAI
 
 ## ⚡Usage Example
-
-``
+```
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
 
@@ -54,10 +53,10 @@ model.eval()
 inputs = tokenizer("Product: Amazon Kindle\nCategory: E-Reader\nFeatures: Lightweight, long battery life\nRating: 5 stars\nTone: Enthusiastic", return_tensors="pt")
 outputs = model.generate(**inputs, max_new_tokens=150)
 print(tokenizer.decode(outputs[0]))
-``
+```
 
 ## 📂 Repository Structure
-
+```
 Smart-Review-AI/
 │
 ├── app.py               # Streamlit web app
@@ -66,6 +65,7 @@ Smart-Review-AI/
 ├── evaluate_model.py    # Model reviews evaluation
 ├── finetune_lora.py     # Model fine-tuning
 └── README.md            # Project documentation
+```
 
 ## 💡 Why LoRA?
 
@@ -77,7 +77,7 @@ Smart-Review-AI/
 
 This project is licensed under the MIT License – feel free to use, modify, and deploy it.
 
-## 🙌 Contributing
+## 🙌 Contribution
 
 Contributions, ideas, or improvements are welcome. Open an issue or submit a pull request to collaborate.
 
