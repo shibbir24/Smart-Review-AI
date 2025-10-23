@@ -83,6 +83,9 @@ Contributions, ideas, or improvements are welcome. Open an issue or submit a pul
 
 ## Results
 
-[pic1](https://github.com/shibbir24/Smart-Review-AI/blob/main/Results/LoRA%20Fine-Tuned%20LLM%20Model%20Evaluation%20After%2020%20Reviews.png)
+## Results
+
+![LoRA Fine-Tuned LLM Evaluation](https://github.com/shibbir24/Smart-Review-AI/blob/main/Results/LoRA%20Fine-Tuned%20LLM%20Model%20Evaluation%20After%2020%20Reviews.png)
+
 
 
