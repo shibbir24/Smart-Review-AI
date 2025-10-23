@@ -32,7 +32,7 @@ This app demonstrates how LoRA can efficiently adapt large language models witho
 - Generate Review – Enter product details, category, features, rating, and tone. The model generates a human-like review.
 - Reviews Evaluation – Track average words length, Tune match ratio, and perplexity.
 
-🖥️ Live Demo
+## 🖥️ Live Demo
 
 Check out the web app on Hugging Face Spaces:
 
@@ -80,4 +80,9 @@ This project is licensed under the MIT License – feel free to use, modify, and
 ## 🙌 Contribution
 
 Contributions, ideas, or improvements are welcome. Open an issue or submit a pull request to collaborate.
+
+## Results
+
+<img width="1920" height="2917" alt="LoRA Fine-Tuned LLM Model Evaluation After 20 Reviews" src="https://github.com/user-attachments/assets/d695da34-421f-4ed4-86be-bd0335122c95" />
+
 
